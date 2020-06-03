@@ -1,0 +1,29 @@
+
+@media (min-width: 576px) {
+    .card-deck > div.card {
+      flex: 1 0 0%;
+      margin-bottom: 50px;
+      text-align: left;
+    }
+}
+
+.card-footer {
+    padding: 0.75rem 1.25rem;
+    background-color:#FFFFFF;
+    border-top: 1px solid rgba(0, 0, 0, 0.125);
+  }
+  
+.card-:last-child {
+    margin-bottom: 0;
+    height: 500px;
+  }
+
+//ini nanti isinya override custom style dari scss bootstrap
+
+@import "../../../node_modules/bootstrap/scss/_functions";
+@import "../../../node_modules/bootstrap/scss/_variables";
+@import "../../../node_modules/bootstrap/scss/_mixins";
+
+@import "../../../node_modules/bootstrap/scss/_card";
+@import "../../../node_modules/bootstrap/scss/_reboot";
+
